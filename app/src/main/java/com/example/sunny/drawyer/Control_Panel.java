@@ -194,4 +194,10 @@ public class Control_Panel extends AppCompatActivity {
         AlertDialog dialog = alertDialog.create();
         dialog.show();
     }
+
+    public void dashboardbtn(View view) {
+
+        Intent i = new Intent(Control_Panel.this, DashBoard.class);
+        startActivity(i);
+    }
 }
